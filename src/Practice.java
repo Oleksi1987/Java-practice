@@ -1,20 +1,19 @@
 import java.util.Scanner;
 
 public class Practice {
-    public static void  main(String args []) {
+    public static void main(String args[]) {
 
-        Scanner scanner = new Scanner(System.in);
+        String[] cars = {"Mustang", "Camaro", "Corvette", "Tesla", "BMW"};
 
-        System.out.println("You are playing a game! Press q or Q to quit");
-        String name = "";
 
-        do {
-            System.out.println("Enter your name");
-            name = scanner.nextLine();
-        }while(name.isBlank());
-            System.out.println("Hello " + name);
+
+        for (int i = 0; i < cars.length; i++) {
+
+            System.out.println(cars[i]);
+
+
         }
     }
-
+}
 
 
