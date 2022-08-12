@@ -1,24 +1,39 @@
 import java.io.StringReader;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
+import java.util.*;
 
 public class Practice {
     public static void main(String args[]) {
 
-       String name = "Bro";
+        ArrayList<ArrayList<String>> groceryList = new ArrayList<>();
 
-       //boolean result = name.equalsIgnoreCase("bro");
-        // int result = name.length();
-        //char result = name.charAt(0);
-        //int result = name.indexOf("B");
-        //boolean result = name.isBlank();
-        //String result = name.toUpperCase(Locale.ROOT);
-        //String result = name.toLowerCase(Locale.ROOT);
-        //String result = name.trim();
-        String result = name.replace('r','a');
+        ArrayList<String> bakeryList = new ArrayList();
+        bakeryList.add("pasta");
+        bakeryList.add("bread");
+        bakeryList.add("donuts");
+
+        ArrayList<String> produceList = new ArrayList();
+        produceList.add("tomato");
+        produceList.add("onion");
+        produceList.add("beans");
+
+        ArrayList<String> drinkList = new ArrayList();
+        drinkList.add("cola");
+        drinkList.add("gin");
+        drinkList.add("vodka");
+
+        groceryList.add(bakeryList);
+        groceryList.add(produceList);
+        groceryList.add(drinkList);
+
+        System.out.println(groceryList.get(2).get(2));
 
 
-        System.out.println(result);
+
+
 
     }
 }
