@@ -8,16 +8,11 @@ import java.util.*;
 public class Practice {
     public static void main(String args[]) {
 
-        Car myCar1 = new Car();
-        Car myCar2 = new Car();
+        Human human1 = new Human("Alex", 70, 34);
+        Human human2 = new Human("Mordi", 52, 47);
 
-        System.out.println(myCar1.make);
-        System.out.println(myCar1.model);
-        System.out.println();
-        System.out.println(myCar2.make);
-        System.out.println(myCar2.model);
-
-
+        human2.eat();
+        human1.drink();
 
 
     }
