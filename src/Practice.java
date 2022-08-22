@@ -2,12 +2,14 @@ public class Practice {
 
     public static void main(String args[]) {
 
-        Friend friend1 = new Friend("Bob");
-        Friend friend2 = new Friend("Vasul");
-        Friend friend3 = new Friend("Petro");
+        Car car = new Car();
+        //car.go();
 
-        Friend.displayFriends();
+        Bicycle bike = new Bicycle();
+        //bike.stop();
 
+        System.out.println(car.doors);
+        System.out.println(bike.pedals);
 
 
 
