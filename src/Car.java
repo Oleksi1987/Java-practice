@@ -1,13 +1,11 @@
-public class Car {
+    public class Car {
 
-    String make = "Ford";
-    String model = "Mustang";
-    String color = "red";
-    int year = 2021;
+        String name;
 
-    public String toString(){
+        Car(String name){
+            this.name = name;
+        }
 
-        return make +"\n"+model+"\n"+color+"\n"+year;
     }
 
-}
+
